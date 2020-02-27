@@ -1,0 +1,66 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<body>
+
+<form action="/action_page.php">
+    <label for="cars"><h5>Choose your section:</h5></label>
+  <select id="cars" name="cars">
+    <option value="volvo">Science</option>
+    <option value="saab">Commerce</option>
+    <option value="fiat">Arts</option>
+  </select>
+    <br><br>
+
+  <fieldset>
+      <legend>Your Interest:</legend><br>
+    <label for="interest">Interest:</label>
+    <input type="text" id="interest" name="fname"><br><br>
+      <br/>
+    <legend>Your SSC Result:</legend>
+    <label for="bangla">Bangla:</label>
+    <input type="text" id="bangla" name="fname"><br><br>
+    <label for="english">English:</label>
+    <input type="text" id="english" name="fname"><br><br>
+    <label for="math">Math:</label>
+    <input type="text" id="math" name="fname"><br><br>
+    <label for="ict">ICT:</label>
+    <input type="text" id="ict" name="fname"><br><br>
+    <label for="religion">Religion</label>
+    <input type="text" id="religion" name="fname"><br><br>
+    <label for="biology">Biology:</label>
+    <input type="text" id="biology" name="fname"><br><br>
+    <label for="physics">Physics:</label>
+    <input type="text" id="physics" name="fname"><br><br>
+    <label for="chemistry">Chemistry:</label>
+    <input type="text" id="chemistry" name="fname"><br><br>
+    <label for="shmath">Higher Math:</label><br/>
+    <input type="text" id="shmath" name="fname"><br><br>
+
+    <legend>Your SSC Result:</legend>
+    <label for="hbangla">Bangla:</label>
+    <input type="text" id="hbangla" name="fname"><br><br>
+    <label for="henglish">English:</label>
+    <input type="text" id="henglish" name="fname"><br><br>
+    <label for="hmath">Math:</label>
+    <input type="text" id="hmath" name="fname"><br><br>
+    <label for="hict">ICT:</label>
+    <input type="text" id="hict" name="fname"><br><br>
+    <label for="hreligion">Religion</label>
+    <input type="text" id="hreligion" name="fname"><br><br>
+    <label for="hbiology">Biology:</label>
+    <input type="text" id="hbiology" name="fname"><br><br>
+    <label for="hphy">Physics:</label>
+    <input type="text" id="hphy" name="fname"><br><br>
+    <label for="hchem">Chemistry:</label>
+    <input type="text" id="hchem" name="fname"><br><br>
+    <label for="hhmath">Higher Math:</label><br/>
+    <input type="text" id="hhmath" name="fname"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+
+</body>
+
+
+{% endblock content %}
